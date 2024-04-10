@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.navbar li a{
+  border: none;
+
+}
+.navbar a{
+    color: rgb(250, 33, 134);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    color: white;
+    background-color: rgb(250, 33, 134);
+    transition-duration: .9s;
+}
+.navbar li{
+    float: left;
+}
+.bar-holder{
+    position: fixed;
+    top: 40px;
+    left: 440px;
+}
+.home{
+    height: 657px;
+    width: 1366px;
+    background-color: rgb(0, 0, 0);
+}
+.homtext-container{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+}
+.hom-para-container{
+ padding: 0px 20px 0px 0px;
+}
+.hom-h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(250, 33, 134);
+}
+.hom-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(250, 33, 134);
+}
+.read-more-button{
+    background-color: rgb(250, 33, 134);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.9s;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 53px;
+    padding-right: 53px;
+    vertical-align: top;
+}
+    .read-more-button:hover{
+        background-color: rgb(255, 85, 159);
+}
+.button-container{
+    padding: 40px 0px 10px 350px;
+}
